@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/user-profile-service:latest
+          tags: surya2412/user-profile-service:latest
