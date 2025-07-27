@@ -11,7 +11,7 @@ const { Pool } = require('pg');
 
 const pool = new Pool({
   user: 'postgres',
-  host: 'localhost',
+  host: 'host.docker.internal', // 👈 important change
   database: 'postgres',
   password: 'Surya@123',
   port: 5432, // default PostgreSQL port

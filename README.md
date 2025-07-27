@@ -29,11 +29,13 @@ So I added Postgres DB so it is capabale of getting current users & adding new u
 3) /users/id method to get a particular id from all users
 
 4) http://localhost:3000/users/2 PUT method in Thunderbolt 
+ it will update our users list 
+
 {
   "name": "Sai surya Gorrepati",
   "email": "saisuryagorrepati@gmail.com",
   "age": 35
-} it will update our users list 
+} 
 
 5) Use Thunder Client or curl:
 
